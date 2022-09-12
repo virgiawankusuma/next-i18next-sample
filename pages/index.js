@@ -29,7 +29,6 @@ export default function Home() {
         <h1 className={styles.title}>
           {t('welcome')} <a href="https://nextjs.org">Next.js!</a>
         </h1>
-        <LangSwitcher />
 
         <p className={styles.description}>
           Get started by editing{' '}
