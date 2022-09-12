@@ -2,5 +2,6 @@
   i18n: {
     defaultLocale: 'id',
     locales: ['id', 'en', 'jp'],
+    localeDetection: false,
   },
 };
