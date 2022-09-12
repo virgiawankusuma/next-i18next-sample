@@ -12,7 +12,7 @@ export default function LangSwitcher() {
     if (lang) {
       i18n.changeLanguage(lang);
     }
-  }, []);
+  }, [i18n]);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
