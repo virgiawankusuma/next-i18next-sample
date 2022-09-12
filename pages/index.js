@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import LangSwitcher from '../components/LangSwitcher';
 
 export async function getStaticProps({ locale }) {
   return {
@@ -28,6 +29,7 @@ export default function Home() {
         <h1 className={styles.title}>
           {t('welcome')} <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <LangSwitcher />
 
         <p className={styles.description}>
           Get started by editing{' '}
